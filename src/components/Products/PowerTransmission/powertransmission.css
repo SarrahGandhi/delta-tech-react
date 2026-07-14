@@ -1,0 +1,207 @@
+.power-transmission-container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.power-transmission-container h1 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.power-transmission-container h2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.power-transmission-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.power-transmission-products div {
+
+    width: calc((100% - 40px) / 3);
+    border: 1px solid rgb(226 232 240);
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.power-transmission-products img {
+
+    margin-bottom: 30px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid rgb(226 232 240); */
+
+}
+
+.power-transmission-products h3 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.power-transmission-products button {
+    background: #fdfdfd;
+    width: 100%;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.power-transmission-products button:hover {
+    background: #000000;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.power-transmission-detail {
+    padding: 60px 20px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.power-transmission-detail h3 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+.power-transmission-detail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1000px;
+}
+
+.power-transmission-detail-container img {
+    max-width: 350px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    flex-shrink: 0;
+}
+
+.power-transmission-detail-content ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: disc;
+    line-height: 1.6;
+}
+
+
+.power-transmission-detail-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 16px;
+    gap: 20px;
+
+
+
+}
+
+.power-transmission-detail-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    color: #222;
+}
+
+@media (max-width: 1024px) {
+    .power-transmission-container {
+        margin: 20px;
+    }
+
+    .power-transmission-container h1 {
+        font-size: 28px;
+        margin: 20px 0;
+    }
+
+    .power-transmission-container h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .power-transmission-products {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .power-transmission-detail-container {
+        flex-direction: row;
+        gap: 30px;
+
+    }
+
+    .power-transmission-detail-container img {
+        max-width: 100%;
+    }
+
+    .power-transmission-detail h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .power-transmission-container {
+        margin: 20px;
+    }
+
+    .power-transmission-container h1 {
+        font-size: 28px;
+        margin: 20px 0;
+    }
+
+    .power-transmission-container h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .power-transmission-products {
+        flex-direction: column;
+    }
+
+    .power-transmission-products div {
+        width: 100%;
+    }
+
+    .power-transmission-detail {
+        padding: 40px 20px;
+    }
+
+    .power-transmission-detail-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .power-transmission-detail-container img {
+        max-width: 100%;
+    }
+
+    .power-transmission-detail h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}

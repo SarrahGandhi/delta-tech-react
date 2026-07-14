@@ -1,0 +1,100 @@
+footer {
+    background-color: rgb(245, 245, 245);
+    margin-top: 50px;
+    position: relative;
+    z-index: 1001;
+}
+
+.footer-contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 60px;
+
+    padding: 0;
+
+}
+
+.contact-details {
+    max-width: 300px;
+}
+
+.footer-contact-details li {
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    padding: 0;
+    line-height: 181%;
+
+
+}
+
+.products-list a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+}
+
+.products-list a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.footer-contact-details ul {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+
+}
+
+.footer-contact-details h1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+
+.products-list {
+    white-space: nowrap;
+}
+
+.footer-bottom {
+    text-align: left;
+    margin: 10px 60px;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+
+    .contact-details {
+        margin-top: 40px;
+    }
+
+    .footer-contact-details {
+        flex-direction: column;
+        margin: 0px 20px;
+
+
+    }
+
+    .footer-contact-details ul {
+        padding-bottom: 10px;
+    }
+
+    .footer-contact-details h1 {
+        margin-top: 0;
+    }
+
+    .contact-details {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin: 20px;
+    }
+}
