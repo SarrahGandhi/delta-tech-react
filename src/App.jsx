@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import Header from './components/header/header'
 import './App.css'
 import Footer from './components/footer/footer'
@@ -20,8 +18,6 @@ import AccessoriesDetail from './components/Products/Accessories/accessoriesdeta
 import Hydraulics from './components/Products/Hydraulics/hydraulics'
 import HydraulicsDetail from './components/Products/Hydraulics/hydraulicsdetail'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <BrowserRouter>

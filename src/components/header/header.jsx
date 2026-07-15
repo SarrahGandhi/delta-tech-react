@@ -173,7 +173,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className="site-header">
       {isMobileSearchActive ? (
         <div className="mobile-search-overlay">
           <div className="mobile-search-container">

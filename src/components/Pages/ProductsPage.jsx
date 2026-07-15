@@ -4,9 +4,10 @@ import "../Home/products/products.css";
 
 function ProductsPage() {
     return (
-        <div className="products-container" style={{ paddingBottom: '80px', minHeight: '60vh' }}>
+        <main className="products-container products-page">
             <h1>Our Products</h1>
-            <div className="product-categories" style={{ marginTop: '30px' }}>
+            <p className="products-page-intro">Precision components and motion solutions for demanding industrial applications.</p>
+            <div className="product-categories">
                 <div className="product-categories-container">
                     <img src="/bearing.png" alt="bearing" />
                     <h2>Bearings</h2>
@@ -39,7 +40,7 @@ function ProductsPage() {
                 </div>
 
             </div>
-        </div>
+        </main>
     );
 
 

@@ -1,4 +1,3 @@
-import react from "react";
 import "./landing-page.css"
 import { Link } from "react-router-dom";
 function LandingPage() {
