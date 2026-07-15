@@ -31,6 +31,12 @@ function ProductsPage() {
                     <p className="product-description">Engineered for maximum efficiency.</p>
                     <Link className="link" to="/accessories">Read More</Link>
                 </div>
+                <div className="product-categories-container">
+                    <img src="/hydraulics.png" alt="Hydraulic components" />
+                    <h2>Hydraulics</h2>
+                    <p className="product-description">Fluid power components for precise, reliable industrial motion.</p>
+                    <Link className="link" to="/hydraulics">Read More</Link>
+                </div>
 
             </div>
         </div>

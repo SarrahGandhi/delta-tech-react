@@ -17,6 +17,8 @@ import Accessories from './components/Products/Accessories/accessories'
 import LinearAutomationDetail from './components/Products/LinearAutomation/linearautomationdetail'
 import PowerTransmissionDetail from './components/Products/PowerTransmission/powertransmissiondetail'
 import AccessoriesDetail from './components/Products/Accessories/accessoriesdetail'
+import Hydraulics from './components/Products/Hydraulics/hydraulics'
+import HydraulicsDetail from './components/Products/Hydraulics/hydraulicsdetail'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -32,6 +34,8 @@ function App() {
           <Route path="/power-transmission/:id" element={<PowerTransmissionDetail />} />
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/accessories/:id" element={<AccessoriesDetail />} />
+          <Route path="/hydraulics" element={<Hydraulics />} />
+          <Route path="/hydraulics/:id" element={<HydraulicsDetail />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/enquiry" element={<EnquiryPage />} />

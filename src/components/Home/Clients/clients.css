@@ -1,68 +1,74 @@
+.client-container {
+    padding: 86px 5% 96px;
+    background: #f4f8f4;
+}
+
 .client-container h1 {
-    color: #000;
+    color: #10251a;
     text-align: center;
-
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 116%;
-    margin-top: 50px;
-
-    /* 55.68px */
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 650;
+    letter-spacing: -0.05em;
+    line-height: 1.05;
+    margin: 0 auto;
+    max-width: 720px;
 }
 
 .client-container h2 {
-    color: #000;
+    color: #607064;
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-
-    /* 55.68px */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 16px auto 0;
+    max-width: 540px;
 }
 
 .client-names-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
-    gap: 30px;
-    margin: 40px auto;
-    max-width: 1000px;
-    padding: 0 20px;
+    gap: 16px;
+    margin: 42px auto 0;
+    max-width: 880px;
 }
 
 .client-names {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    border: 1px solid rgb(226, 232, 240);
-    border-radius: 6px;
-    background: #FFF;
-    padding: 20px 10px;
-    max-width: 300px;
-    min-width: 250px;
-    flex: 1 1 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    border: 1px solid #d8e6db;
+    border-radius: 0;
+    background: #fff;
+    padding: 16px 24px;
+    box-shadow: 0 12px 28px rgba(20, 66, 35, 0.05);
 }
 
 .client-names ul {
-    padding: 5px 10px;
-
+    padding: 0;
+    margin: 0;
 }
 
 .client-names li {
     list-style: none;
     text-align: left;
-    color: #000;
+    color: #264232;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 14px 0 14px 26px;
+    border-bottom: 1px solid #e8efea;
+    position: relative;
+}
 
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 181%;
-    padding: 8px 10px;
-    border-bottom: 1px solid #f0f0f0;
+.client-names li::before {
+    content: "↗";
+    color: #16884a;
+    font-size: 15px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
 }
 
 .client-names li:last-child {
@@ -71,16 +77,17 @@
 
 @media (max-width: 768px) {
     .client-container {
-        padding: 0 10px;
+        padding: 64px 20px;
     }
+
     .client-names-container {
-        margin: 20px 10px;
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        margin: 32px 0 0;
+        gap: 12px;
     }
+
     .client-names {
         width: 100%;
-        max-width: 100%;
-        margin-bottom: 10px;
+        box-sizing: border-box;
     }
 }

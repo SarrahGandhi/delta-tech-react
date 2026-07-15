@@ -1,94 +1,109 @@
 .products-container {
-    background-color: rgb(255, 255, 255);
+    --ink: #10251a;
+    --muted: #607064;
+    --green: #16884a;
+    --pale-green: #eaf5ed;
+    background:
+        radial-gradient(circle at 90% 10%, rgba(73, 181, 109, 0.12), transparent 24rem),
+        #fcfdfb;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1000px;
+    max-width: none;
     margin: 0 auto;
+    padding: 88px 5%;
 }
 
 .products-container h1 {
-    color: #000;
+    color: var(--ink);
     text-align: center;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 650;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin: 0 0 40px;
+    position: relative;
+}
 
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 116%;
-    margin-top: 50px;
-    /* 55.68px */
+.products-container h1::after {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 3px;
+    margin: 18px auto 0;
+    background: var(--green);
 }
 
 .product-categories {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    /* Stretches children to equal height */
-    gap: 50px;
-    justify-content: center;
-    color: #000;
-    max-width: 800px;
-
-
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
+    max-width: 1080px;
 }
 
-
 .product-categories h2 {
-    color: #000;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 181%;
-    /* 43.44px */
+    color: var(--ink);
+    text-align: left;
+    font-size: 17px;
+    font-weight: 650;
+    line-height: 1.35;
+    margin: 20px 0 10px;
 }
 
 .link {
     cursor: pointer;
-    color: #000;
-    text-align: center;
+    color: var(--green);
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 181%;
-    /* 43.44px */
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link::after {
+    content: " ↗";
+    font-size: 14px;
 }
 
 .product-categories-container {
-    border: 1px solid rgb(226, 232, 240);
-    border-radius: 8px;
-    padding: 30px;
-    /* Reduced padding from 100px to avoid text squishing in 3 boxes */
-    background: #FFF;
-    flex: 0 1 calc(50% - 25px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #dbe8df;
+    border-radius: 0;
+    padding: 26px;
+    background: rgba(255, 255, 255, 0.8);
+    min-height: 270px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     box-sizing: border-box;
-    /* Enforces 3 items per row and prevents bottom 2 from stretching */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-width: 200px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
 }
 
-
 .product-categories-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-7px);
+    border-color: #8acc9e;
+    box-shadow: 0 18px 34px rgba(14, 65, 33, 0.12);
 }
 
 .product-categories-container img {
-    max-width: 150px;
-    transition: transform 0.3s ease;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    max-width: 116px;
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.35s ease;
 }
 
 .product-categories-container:hover img {
-    transform: scale(1.05);
+    transform: scale(1.1) rotate(-3deg);
 }
 
 .product-description {
-    text-align: center;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -97,31 +112,36 @@
 }
 
 @media (max-width: 768px) {
+    .products-container {
+        padding: 64px 20px;
+    }
+
     .product-categories {
-        gap: 15px;
-        padding: 0 15px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* Enforces 2 items per row on smaller screens */
         width: 100%;
-        box-sizing: border-box;
+        gap: 12px;
     }
 
     .product-categories-container {
-        padding: 15px;
-        min-width: 0;
-        /* Overrides the desktop min-width so they can fit side-by-side */
+        padding: 16px;
+        min-height: 210px;
         width: 100%;
-        box-sizing: border-box;
     }
 
     .product-categories-container img {
-        max-width: 80px;
-        margin-bottom: 12px;
+        top: 14px;
+        right: 12px;
+        max-width: 76px;
+        max-height: 65px;
     }
 
     .product-categories h2 {
         font-size: 14px;
-        margin-bottom: 8px;
+        margin: 14px 0 8px;
+    }
+
+    .link {
+        font-size: 10px;
     }
 }

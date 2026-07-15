@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="footer-contact-details">
 
                     <ul className="contact-details">
-                        <h1>Overseas Bearing Agency</h1>
+                        <h1>Delta Technologies</h1>
                         <li>60 MG Road, G-37 VaraLakshmi Market Complex, Hyderabad 50003 Telangana State, India</li>
                         <li>+91-9494637013</li>
                         <li>overseasbearing@aol.com</li>
@@ -31,13 +31,13 @@ const Footer = () => {
                     </ul>
                     <ul className="products-list">
                         <h1>About Us</h1>
-                        <li><Link to="/aboutus" onClick={() => window.scrollTo(0, 0)}>About OBA</Link></li>
+                        <li><Link to="/aboutus" onClick={() => window.scrollTo(0, 0)}>About Delta Tech</Link></li>
                         <li><Link to="/aboutus#locations" >Manufacturing Facilities</Link></li>
                         <li><Link to="/enquiry" onClick={() => window.scrollTo(0, 0)}>Contact Us</Link></li>
                     </ul>
                 </div>
                 <div className="footer-bottom">
-                    <p>© 2026 Overseas Bearing Agency. All rights reserved.</p>
+                    <p>© 2026 Delta Technologies. All rights reserved.</p>
                 </div>
             </div>
         </footer>

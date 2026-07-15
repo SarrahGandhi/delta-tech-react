@@ -312,6 +312,237 @@ export const powerTransmissionProducts = [
   },
 ];
 
+export const hydraulicsProducts = [
+  {
+    id: 1,
+    productName: "Hydraulic Hoses",
+    img: "/hydraulics.png",
+    description:
+      "Hydraulic hoses deliver reliable fluid transfer in high-pressure hydraulic systems, with options selected for demanding industrial and mobile applications.",
+    keyFeatures: [
+      "High-pressure fluid transfer",
+      "Flexible routing options",
+      "Durable reinforced construction",
+      "Compatible hose-end connections",
+    ],
+    applications: [
+      "Industrial machinery",
+      "Mobile equipment",
+      "Material handling equipment",
+      "Hydraulic power systems",
+    ],
+  },
+  {
+    id: 2,
+    productName: "Stainless Steel Hose Assemblies",
+    img: "/hydraulics.png",
+    description:
+      "Stainless steel hose assemblies provide corrosion-resistant, dependable fluid transfer where hygiene, chemical compatibility, or harsh environments are critical.",
+    keyFeatures: [
+      "Corrosion-resistant construction",
+      "Custom assembly options",
+      "Secure end connections",
+      "Suitable for demanding environments",
+    ],
+    applications: [
+      "Chemical processing",
+      "Food and pharmaceutical systems",
+      "Marine environments",
+      "Industrial fluid transfer",
+    ],
+  },
+  {
+    id: 3,
+    productName: "Teflon Hoses",
+    img: "/hydraulics.png",
+    description:
+      "Teflon hoses provide excellent chemical resistance and temperature performance for specialized fluid-transfer applications.",
+    keyFeatures: [
+      "Chemical-resistant PTFE liner",
+      "Wide temperature capability",
+      "Low-friction fluid path",
+      "Flexible construction",
+    ],
+    applications: [
+      "Chemical transfer",
+      "High-temperature systems",
+      "Pharmaceutical processing",
+      "Specialty industrial equipment",
+    ],
+  },
+  {
+    id: 4,
+    productName: "Expansion Joints and Compensators",
+    img: "/hydraulics.png",
+    description:
+      "Expansion joints and compensators absorb movement, vibration, and thermal expansion to protect piping systems and connected equipment.",
+    keyFeatures: [
+      "Absorbs thermal movement",
+      "Reduces vibration transmission",
+      "Supports piping alignment",
+      "Available for varied media",
+    ],
+    applications: [
+      "Process piping",
+      "Power generation",
+      "HVAC systems",
+      "Industrial plants",
+    ],
+  },
+  {
+    id: 5,
+    productName: "Large-Diameter Hoses",
+    img: "/hydraulics.png",
+    description:
+      "Large-diameter hoses provide efficient transfer of high volumes of fluids and bulk materials for industrial, marine, and construction operations.",
+    keyFeatures: [
+      "High-flow capacity",
+      "Robust reinforced walls",
+      "Flexible installation",
+      "Abrasion-resistant options",
+    ],
+    applications: [
+      "Bulk fluid transfer",
+      "Dewatering operations",
+      "Marine applications",
+      "Construction sites",
+    ],
+  },
+  {
+    id: 6,
+    productName: "Hydraulic Tube Fittings and Adapters",
+    img: "/hydraulics.png",
+    description:
+      "Hydraulic tube fittings and adapters create secure, reliable connections between tubing, hoses, and hydraulic components.",
+    keyFeatures: [
+      "Leak-resistant connections",
+      "Multiple thread and port options",
+      "Durable metal construction",
+      "Supports system customization",
+    ],
+    applications: [
+      "Hydraulic machinery",
+      "Fluid power systems",
+      "Industrial equipment",
+      "Mobile hydraulics",
+    ],
+  },
+  {
+    id: 7,
+    productName: "Special-Purpose Hoses",
+    img: "/hydraulics.png",
+    description:
+      "Special-purpose hoses are selected for unique operating requirements such as high temperatures, abrasion, suction, discharge, or chemical compatibility.",
+    keyFeatures: [
+      "Application-specific materials",
+      "Specialized pressure ratings",
+      "Flexible or rigid options",
+      "Built for demanding conditions",
+    ],
+    applications: [
+      "Chemical transfer",
+      "High-temperature operations",
+      "Industrial processing",
+      "Specialty machinery",
+    ],
+  },
+  {
+    id: 8,
+    productName: "Hydraulic Cylinders",
+    img: "/hydraulics.png",
+    description:
+      "Hydraulic cylinders provide controlled linear force and motion for demanding industrial, construction, and automation applications.",
+    keyFeatures: [
+      "High force output",
+      "Smooth linear motion",
+      "Robust sealing",
+      "Long service life",
+    ],
+    applications: [
+      "Hydraulic presses",
+      "Lifting equipment",
+      "Construction machinery",
+      "Production systems",
+    ],
+  },
+  {
+    id: 9,
+    productName: "Composite Hoses",
+    img: "/hydraulics.png",
+    description:
+      "Composite hoses combine multiple material layers to provide flexible, lightweight fluid transfer for a broad range of industrial media.",
+    keyFeatures: [
+      "Lightweight layered construction",
+      "Flexible handling",
+      "Chemical compatibility options",
+      "Secure end fittings",
+    ],
+    applications: [
+      "Fuel transfer",
+      "Chemical handling",
+      "Marine terminals",
+      "Tank-truck loading",
+    ],
+  },
+  {
+    id: 10,
+    productName: "Rubber and PTFE Expansion Joints",
+    img: "/hydraulics.png",
+    description:
+      "Rubber and PTFE expansion joints accommodate thermal movement and vibration while supporting compatibility with a wide range of process fluids.",
+    keyFeatures: [
+      "Vibration isolation",
+      "Thermal expansion control",
+      "Rubber and PTFE material options",
+      "Protects connected equipment",
+    ],
+    applications: [
+      "Chemical process lines",
+      "Water systems",
+      "Pump connections",
+      "Industrial piping",
+    ],
+  },
+  {
+    id: 11,
+    productName: "Hydraulic Hose Fittings",
+    img: "/hydraulics.png",
+    description:
+      "Hydraulic hose fittings provide dependable, pressure-rated connections between hoses and hydraulic equipment.",
+    keyFeatures: [
+      "Pressure-rated connections",
+      "Crimp and reusable options",
+      "Broad size availability",
+      "Secure sealing performance",
+    ],
+    applications: [
+      "Hydraulic assemblies",
+      "Mobile equipment",
+      "Industrial machinery",
+      "Repair and maintenance",
+    ],
+  },
+  {
+    id: 12,
+    productName: "Hydraulic Crimping Machines",
+    img: "/hydraulics.png",
+    description:
+      "Hydraulic crimping machines create consistent, secure hose assemblies by accurately crimping fittings onto hydraulic hoses.",
+    keyFeatures: [
+      "Consistent crimp quality",
+      "Adjustable crimp settings",
+      "Supports multiple hose sizes",
+      "Efficient assembly production",
+    ],
+    applications: [
+      "Hose assembly workshops",
+      "Service centers",
+      "Maintenance operations",
+      "Industrial production",
+    ],
+  },
+];
+
 export const accessoriesProducts = [
   {
     id: 1,

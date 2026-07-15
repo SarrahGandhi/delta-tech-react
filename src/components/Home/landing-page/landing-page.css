@@ -1,125 +1,161 @@
 
-:root {
-    background-color: none;
-    margin: 0;
-    padding: 0;
-}
-
 .Landing-container {
-
-    background: url('/bearing-background.jpg');
-    background-color: none;
-
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background:
+        linear-gradient(90deg, rgba(4, 19, 14, 0.96) 0%, rgba(6, 31, 21, 0.86) 42%, rgba(4, 19, 14, 0.22) 100%),
+        url('/bearing-background.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-slash;
-    min-height: 90vh;
-    padding: 0;
-    margin-top: 0;
+    background-repeat: no-repeat;
+    min-height: min(760px, 82vh);
+    padding: 72px 0;
     text-align: left;
-    border: 0px;
     width: 100%;
-    margin: 0;
     display: flex;
     align-items: center;
+}
+
+.Landing-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.22;
+    background-image:
+        linear-gradient(rgba(153, 238, 182, 0.45) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(153, 238, 182, 0.45) 1px, transparent 1px);
+    background-size: 62px 62px;
+    mask-image: linear-gradient(90deg, black, transparent 70%);
 }
 
 .landing-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 600px;
-    padding-left: 5%;
+    max-width: 660px;
+    padding: 36px 5%;
     justify-content: center;
-    gap: 30px;
-
+    gap: 22px;
 }
 
 .landing-text h1 {
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 154.3%;
-    /* 37.032px */
-    letter-spacing: 2.16px;
+    color: #9ceeae;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+    margin: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.landing-text h1::before {
+    content: "";
+    width: 38px;
+    height: 1px;
+    background: #64d882;
 }
 
 .landing-text h2 {
-    color: #FFF;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 116%;
-    align-items: left;
-    /* 55.68px */
+    color: #f4f8f3;
+    font-size: clamp(2.4rem, 4.6vw, 4.4rem);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+    margin: 0;
+    max-width: 580px;
 }
 
 .landing-text p {
-    color: #FFF;
+    color: #d1ddd4;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 164%;
-
-    /* 39.36px */
+    line-height: 1.7;
+    margin: 0;
+    max-width: 570px;
 }
 
 .landing-button {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 12px;
+    margin-top: 10px;
 }
 
-button {
-    color: #00400D;
+.landing-button button {
+    color: #062315;
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 164%;
-    padding: 10px 25px;
-    border: 0px;
-    background-color: #FFF;
-    /* 39.36px */
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    padding: 14px 22px;
+    border: 1px solid #8df0aa;
+    background-color: #8df0aa;
+    transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
 }
 
-button:hover {
+.landing-button a + a button {
+    color: #e7f7eb;
+    background-color: transparent;
+    border-color: rgba(231, 247, 235, 0.55);
+}
+
+.landing-button button:hover {
     cursor: pointer;
-    background-color: black;
-    color: #FFF;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    background-color: #c4f8d1;
+    color: #062315;
+    transform: translateY(-3px);
+}
+
+.landing-button a + a button:hover {
+    background-color: #e7f7eb;
+    border-color: #e7f7eb;
 }
 
 @media (max-width: 768px) {
+    .Landing-container {
+        min-height: 670px;
+        padding: 40px 0;
+        background-position: 60% center;
+    }
+
     .landing-text {
-        padding: 5% 20px;
+        padding: 28px 24px;
         max-width: 100%;
-        text-align: center;
-        align-items: center;
-        background: rgba(0, 0, 0, 0.4);
-        border-radius: 12px;
-        margin: 20px;
+        text-align: left;
+        align-items: flex-start;
+        margin: 0;
     }
+
     .landing-text h1 {
-        font-size: 16px;
-        text-align: center;
-        letter-spacing: 1.5px;
+        font-size: 10px;
     }
+
     .landing-text h2 {
-        font-size: 28px;
-        text-align: center;
+        font-size: clamp(2.4rem, 12vw, 3.5rem);
     }
+
     .landing-text p {
         font-size: 14px;
-        text-align: center;
     }
+
     .landing-button {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
     }
+
+    .landing-button a {
+        flex: 1;
+    }
+
     .landing-button button {
         width: 100%;
+        min-height: 52px;
+        padding-inline: 10px;
     }
 }

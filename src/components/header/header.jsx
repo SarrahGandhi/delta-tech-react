@@ -31,13 +31,16 @@ function Header() {
   }, [isMobileSearchActive]);
 
   useEffect(() => {
-    if (isMenuOpen) {
+    const isMobileMenuOpen = isMenuOpen && window.innerWidth <= 768;
+
+    if (isMobileMenuOpen) {
       document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "";
     }
+
     return () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "";
     };
   }, [isMenuOpen]);
 
@@ -250,7 +253,7 @@ function Header() {
       ) : (
         <div className="nav">
           <NavLink to="/" className="logo-link">
-            <img src="/logo_oba.png" alt="OBA Logo" className="logo" />
+            <img src="/logo_oba.png" alt="Delta Tech logo" className="logo" />
           </NavLink>
 
           <div
@@ -354,6 +357,11 @@ function Header() {
                 <li>
                   <NavLink to="accessories" onClick={handleDropdownLinkClick}>
                     Accessories
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/hydraulics" onClick={handleDropdownLinkClick}>
+                    Hydraulics
                   </NavLink>
                 </li>
               </ul>

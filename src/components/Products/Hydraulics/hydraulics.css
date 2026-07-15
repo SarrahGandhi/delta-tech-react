@@ -1,0 +1,139 @@
+.hydraulics-container,
+.hydraulics-detail,
+.hydraulics-not-found {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 24px 120px;
+    color: #12202e;
+}
+
+.hydraulics-eyebrow {
+    margin: 0 0 10px;
+    color: #1261a6;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.hydraulics-container h1,
+.hydraulics-detail h1 {
+    margin: 0;
+    color: #102b44;
+    font-size: clamp(2.25rem, 5vw, 4rem);
+    line-height: 1.05;
+}
+
+.hydraulics-intro {
+    max-width: 690px;
+    margin: 20px 0 44px;
+    color: #536271;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.hydraulics-products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.hydraulics-product-card {
+    overflow: hidden;
+    border: 1px solid #d9e2ea;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 12px 24px rgb(16 43 68 / 7%);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.hydraulics-product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 32px rgb(16 43 68 / 14%);
+}
+
+.hydraulics-product-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.hydraulics-product-card h2 {
+    margin: 22px 22px 12px;
+    color: #102b44;
+    font-size: 1.1rem;
+}
+
+.hydraulics-product-card a {
+    display: inline-block;
+    margin: 0 22px 22px;
+    color: #1261a6;
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.hydraulics-detail-layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.1fr);
+    gap: 52px;
+    align-items: start;
+    margin-top: 42px;
+}
+
+.hydraulics-detail-layout > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 16px 32px rgb(16 43 68 / 12%);
+}
+
+.hydraulics-detail-content {
+    color: #536271;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.hydraulics-detail-content > p {
+    margin-top: 0;
+}
+
+.hydraulics-detail-content section {
+    margin-top: 28px;
+}
+
+.hydraulics-detail-content h2 {
+    margin: 0 0 10px;
+    color: #102b44;
+    font-size: 1.05rem;
+}
+
+.hydraulics-detail-content ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .hydraulics-container,
+    .hydraulics-detail,
+    .hydraulics-not-found {
+        padding: 48px 20px 88px;
+    }
+
+    .hydraulics-products {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hydraulics-detail-layout {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 520px) {
+    .hydraulics-products {
+        grid-template-columns: 1fr;
+    }
+}

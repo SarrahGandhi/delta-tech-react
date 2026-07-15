@@ -26,6 +26,11 @@ function Products() {
                     <h2>Accessories & Supporting Components</h2>
                     <Link className="link" to="/accessories">Read More</Link>
                 </div>
+                <div className="product-categories-container">
+                    <img src="/hydraulics.png" alt="Hydraulic components" />
+                    <h2>Hydraulics</h2>
+                    <Link className="link" to="/hydraulics">Read More</Link>
+                </div>
 
             </div>
         </div>

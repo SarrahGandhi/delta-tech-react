@@ -3,7 +3,7 @@ import "./clients.css"
 function Client() {
     return (
         <div className="client-container">
-            <h1>Prominent and Prospective Clients of OBA</h1>
+            <h1>Prominent and Prospective Clients of Delta Tech</h1>
             <h2>Our partnership with industry leaders across manufacturing and industrial sectors</h2>
             <div className="client-names-container">
                 <div className="client-names">
