@@ -52,6 +52,12 @@ const services = [
         description: "We work with your maintenance team to identify issues early and improve the reliability of critical equipment.",
         points: ["Plant surveys and damage analysis", "Lubrication management", "Condition monitoring and team training"],
     },
+    {
+        id: "hose-services",
+        title: "Hose Assembly & Fluid Transfer Support",
+        description: "We help specify and assemble dependable hose solutions for hydraulic, chemical, high-temperature, and other demanding fluid-transfer applications.",
+        points: ["Hose and material selection", "Fitting, adapter, and crimping support", "Replacement and application guidance"],
+    },
 ];
 
 function ServicesPage() {
@@ -73,7 +79,7 @@ function ServicesPage() {
                 </div>
                 <div className="services-hero-index" aria-hidden="true">
                     <span>Technical<br />services</span>
-                    <strong>01—04</strong>
+                    <strong>01—05</strong>
                 </div>
                 <div className="services-hero-metrics">
                     <span>Specify</span>
@@ -106,7 +112,10 @@ function ServicesPage() {
                 <div className="service-offerings-grid">
                     {services.map((service, index) => (
                         <article key={service.id} id={service.id} className="service-item">
-                            <span className="service-item-number">0{index + 1}</span>
+                            <span className="service-item-number" aria-hidden="true">
+                                <small>Service</small>
+                                {String(index + 1).padStart(2, "0")}
+                            </span>
                             <h3>{service.title}</h3>
                             <p>{service.description}</p>
                             <ul>

@@ -5,12 +5,12 @@ export const searchIndex = [
     {
         title: "About Us",
         path: "/aboutus",
-        content: "Delta Technologies is a trusted supplier of high-quality bearings and precision motion components. Specialists in precision spindles, bearings, ball screws, rotary tables, and comprehensive reconditioning services with 25 years of experience. We serve diverse industrial sectors with reliable and performance-driven solutions across manufacturing, automation, and heavy industry. Our pan-India locations include Bangalore (Southern India) and a regional office in Northern India."
+        content: "Delta Technologies is a trusted supplier of high-quality bearings and precision motion components. Specialists in precision spindles, bearings, ball screws, rotary tables, and comprehensive reconditioning services with 25 years of experience. We serve diverse industrial sectors with reliable and performance-driven solutions across manufacturing, automation, and heavy industry. Our locations include Bangalore (Southern India) and Hyderabad, Telangana."
     },
     {
         title: "Services",
         path: "/services",
-        content: "We provide precision repair and reconditioning services for spindles, ball screws, rotary tables, and bearings. Our core services include Bearing Selection & Technical Consultation, Custom Bearing Design & Manufacturing, and Bearing Maintenance & Repair (Levels 1, 2, and 3: Inspection, Refurbishment, and Full Remanufacturing). Technical services include Lubrication Management, Training Services, and Condition Monitoring for predictive maintenance."
+        content: "We provide precision repair and reconditioning services for spindles, ball screws, rotary tables, and bearings. Our core services include Product Selection & Technical Consultation, Custom Solutions, Bearing Maintenance & Repair, and hose assembly and fluid-transfer support. Hose services include material selection, fitting and adapter matching, crimping support, and replacement guidance. Technical services include Lubrication Management, Training Services, and Condition Monitoring for predictive maintenance."
     },
     {
         title: "Home",
@@ -25,7 +25,7 @@ export const searchIndex = [
     {
         title: "Enquiry",
         path: "/enquiry",
-        content: "Contact us for enquiries, technical support, or project consultations. Reach out to our Bangalore corporate office at +91-80-23253148 or email sales@overseasbearing.com."
+        content: "Contact us for enquiries, technical support, or project consultations. Reach our Hyderabad regional office at +91-9494637013 or email quickresponse@delta-tech.co.in."
     },
 
     // Bearings

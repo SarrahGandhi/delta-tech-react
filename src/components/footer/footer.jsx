@@ -9,9 +9,9 @@ const Footer = () => {
 
                     <ul className="contact-details">
                         <h1>Delta Technologies</h1>
-                        <li>60 MG Road, G-37 VaraLakshmi Market Complex, Hyderabad 50003 Telangana State, India</li>
+                        <li>#11/2, Lakshmipura Main Road, Abbigere Industrial Area, Abbigere, Bangalore – 560090</li>
                         <li>+91-9494637013</li>
-                        <li>overseasbearing@aol.com</li>
+                        <li>quickresponse@delta-tech.co.in</li>
                     </ul>
 
                     <ul className="products-list">
@@ -28,6 +28,7 @@ const Footer = () => {
                         <li><Link to="/services#custom-bearing-design">Custom Bearing Design</Link></li>
                         <li><Link to="/services#bearing-repair">Bearing Repair</Link></li>
                         <li><Link to="/services#condition-monitoring">Condition Monitoring</Link></li>
+                        <li><Link to="/services#hose-services">Hose Assembly Services</Link></li>
                     </ul>
                     <ul className="products-list">
                         <h1>About Us</h1>

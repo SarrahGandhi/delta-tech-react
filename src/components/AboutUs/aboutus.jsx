@@ -207,24 +207,21 @@ function AboutUs() {
 
                     <article className="aboutus-location-card">
                         <header>
-                            <h3>Northern India</h3>
+                            <h3>Hyderabad</h3>
                             <p>Regional Office</p>
                         </header>
                         <p className="aboutus-location-address">
-                            (Placeholder Address line 1)<br />
-                            (Placeholder Address line 2),<br />
-                            City – Pincode
+                            60 MG Road, G-37 VaraLakshmi Market Complex,<br />
+                            Hyderabad – 50003,<br />
+                            Telangana State, India
                         </p>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Phone</p>
-                            <p>
-                                Fixed: +91-XX-XXXXXXXX<br />
-                                Mobile: +91-XXXXXXXXXX
-                            </p>
+                            <p>Mobile: +91-9494637013</p>
                         </div>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Email</p>
-                            <p>north.sales@overseasbearing.com</p>
+                            <p>quickresponse@delta-tech.co.in</p>
                         </div>
                     </article>
                 </div>
