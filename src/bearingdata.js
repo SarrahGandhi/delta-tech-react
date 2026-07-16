@@ -316,7 +316,7 @@ export const hydraulicsProducts = [
   {
     id: 1,
     productName: "Hydraulic Hoses",
-    img: "/hydraulics.png",
+    img: "/hoses/hydraulic-hoses.png",
     description:
       "Hydraulic hoses deliver reliable fluid transfer in high-pressure hydraulic systems, with options selected for demanding industrial and mobile applications.",
     keyFeatures: [
@@ -335,7 +335,7 @@ export const hydraulicsProducts = [
   {
     id: 2,
     productName: "Stainless Steel Hose Assemblies",
-    img: "/hydraulics.png",
+    img: "/hoses/stainless-steel-hose-assemblies.png",
     description:
       "Stainless steel hose assemblies provide corrosion-resistant, dependable fluid transfer where hygiene, chemical compatibility, or harsh environments are critical.",
     keyFeatures: [
@@ -354,7 +354,7 @@ export const hydraulicsProducts = [
   {
     id: 3,
     productName: "Teflon Hoses",
-    img: "/hydraulics.png",
+    img: "/hoses/teflon-hoses.png",
     description:
       "Teflon hoses provide excellent chemical resistance and temperature performance for specialized fluid-transfer applications.",
     keyFeatures: [
@@ -373,7 +373,7 @@ export const hydraulicsProducts = [
   {
     id: 4,
     productName: "Expansion Joints and Compensators",
-    img: "/hydraulics.png",
+    img: "/hoses/expansion-joints-and-compensators.png",
     description:
       "Expansion joints and compensators absorb movement, vibration, and thermal expansion to protect piping systems and connected equipment.",
     keyFeatures: [
@@ -392,7 +392,7 @@ export const hydraulicsProducts = [
   {
     id: 5,
     productName: "Large-Diameter Hoses",
-    img: "/hydraulics.png",
+    img: "/hoses/large-diameter-hoses.png",
     description:
       "Large-diameter hoses provide efficient transfer of high volumes of fluids and bulk materials for industrial, marine, and construction operations.",
     keyFeatures: [
@@ -411,7 +411,7 @@ export const hydraulicsProducts = [
   {
     id: 6,
     productName: "Hydraulic Tube Fittings and Adapters",
-    img: "/hydraulics.png",
+    img: "/hoses/hydraulic-tube-fittings-and-adapters.png",
     description:
       "Hydraulic tube fittings and adapters create secure, reliable connections between tubing, hoses, and hydraulic components.",
     keyFeatures: [
@@ -430,7 +430,7 @@ export const hydraulicsProducts = [
   {
     id: 7,
     productName: "Special-Purpose Hoses",
-    img: "/hydraulics.png",
+    img: "/hoses/special-purpose-hoses.png",
     description:
       "Special-purpose hoses are selected for unique operating requirements such as high temperatures, abrasion, suction, discharge, or chemical compatibility.",
     keyFeatures: [
@@ -449,7 +449,7 @@ export const hydraulicsProducts = [
   {
     id: 8,
     productName: "Hydraulic Cylinders",
-    img: "/hydraulics.png",
+    img: "/hoses/hydraulic-cylinders.png",
     description:
       "Hydraulic cylinders provide controlled linear force and motion for demanding industrial, construction, and automation applications.",
     keyFeatures: [
@@ -468,7 +468,7 @@ export const hydraulicsProducts = [
   {
     id: 9,
     productName: "Composite Hoses",
-    img: "/hydraulics.png",
+    img: "/hoses/composite-hoses.png",
     description:
       "Composite hoses combine multiple material layers to provide flexible, lightweight fluid transfer for a broad range of industrial media.",
     keyFeatures: [
@@ -487,7 +487,7 @@ export const hydraulicsProducts = [
   {
     id: 10,
     productName: "Rubber and PTFE Expansion Joints",
-    img: "/hydraulics.png",
+    img: "/hoses/rubber-and-ptfe-expansion-joints.png",
     description:
       "Rubber and PTFE expansion joints accommodate thermal movement and vibration while supporting compatibility with a wide range of process fluids.",
     keyFeatures: [
@@ -506,7 +506,7 @@ export const hydraulicsProducts = [
   {
     id: 11,
     productName: "Hydraulic Hose Fittings",
-    img: "/hydraulics.png",
+    img: "/hoses/hydraulic-hose-fittings.png",
     description:
       "Hydraulic hose fittings provide dependable, pressure-rated connections between hoses and hydraulic equipment.",
     keyFeatures: [
@@ -525,7 +525,7 @@ export const hydraulicsProducts = [
   {
     id: 12,
     productName: "Hydraulic Crimping Machines",
-    img: "/hydraulics.png",
+    img: "/hoses/hydraulic-crimping-machines.png",
     description:
       "Hydraulic crimping machines create consistent, secure hose assemblies by accurately crimping fittings onto hydraulic hoses.",
     keyFeatures: [
