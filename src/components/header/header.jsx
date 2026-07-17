@@ -334,8 +334,8 @@ function Header() {
                 className={`oba-dropdown-menu ${isProductsDropdownOpen ? "mobile-open" : ""}`}
               >
                 <li>
-                  <NavLink to="/bearing" onClick={handleDropdownLinkClick}>
-                    Bearings
+                  <NavLink to="/hydraulics" onClick={handleDropdownLinkClick}>
+                    Hydraulics
                   </NavLink>
                 </li>
                 <li>
@@ -355,13 +355,13 @@ function Header() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="accessories" onClick={handleDropdownLinkClick}>
-                    Accessories
+                  <NavLink to="/bearing" onClick={handleDropdownLinkClick}>
+                    Bearings
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/hydraulics" onClick={handleDropdownLinkClick}>
-                    Hydraulics
+                  <NavLink to="/accessories" onClick={handleDropdownLinkClick}>
+                    Accessories
                   </NavLink>
                 </li>
               </ul>

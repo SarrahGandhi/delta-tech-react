@@ -414,6 +414,27 @@
     line-height: 1.65;
 }
 
+.aboutus-location-contact a {
+    color: #0f7540;
+    font-weight: 600;
+    text-decoration-color: #8acc9e;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.aboutus-location-contact a:hover {
+    color: #094f2b;
+    text-decoration-color: currentColor;
+}
+
+.aboutus-location-contact a:focus-visible {
+    color: #094f2b;
+    border-radius: 2px;
+    outline: 3px solid rgba(22, 136, 74, 0.25);
+    outline-offset: 3px;
+}
+
 /* Responsive */
 @media (max-width: 1150px) {
     .aboutus-heritage,

@@ -180,48 +180,47 @@ function AboutUs() {
                 <div className="aboutus-locations-grid">
                     <article className="aboutus-location-card">
                         <header>
-                            <h3>Southern India</h3>
-                            <p>Corporate Office / Works</p>
+                            <h3>Manufacturing Unit</h3>
+                            <p>Bangalore</p>
                         </header>
                         <p className="aboutus-location-address">
-                            #11/2, Lakshmipura Main Road,<br />
-                            Abbigere Industrial Area, Abbigere,<br />
-                            Bangalore – 560090
+                            76/3, Shed No. 11,<br />
+                            Shardhamma Industrial Estate,<br />
+                            Mylasandra, Begur Koppa Road,<br />
+                            Bangalore – 560068,<br />
+                            Karnataka, India
                         </p>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Phone</p>
-                            <p>
-                                Fixed: +91-80-23253148<br />
-                                Mobile: +91-9591989244 / +91-9845345952<br />
-                                +91-9591994067
-                            </p>
+                            <p><a href="tel:+919538613013">+91 95386 13013</a></p>
                         </div>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Email</p>
                             <p>
-                                sales@overseasbearing.com<br />
-                                info@overseasbearing.com
+                                <a href="mailto:deltatech@outlook.com">deltatech@outlook.com</a><br />
+                                <a href="mailto:quickresponse@delta-tech.co.in">quickresponse@delta-tech.co.in</a>
                             </p>
                         </div>
                     </article>
 
                     <article className="aboutus-location-card">
                         <header>
-                            <h3>Hyderabad</h3>
-                            <p>Regional Office</p>
+                            <h3>Hyderabad Facility</h3>
+                            <p>Hyderabad</p>
                         </header>
                         <p className="aboutus-location-address">
-                            60 MG Road, G-37 VaraLakshmi Market Complex,<br />
-                            Hyderabad – 50003,<br />
+                            60 M G Road,<br />
+                            G37 Varalakshmi Market Complex,<br />
+                            Hyderabad – 500003,<br />
                             Telangana State, India
                         </p>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Phone</p>
-                            <p>Mobile: +91-9494637013</p>
+                            <p><a href="tel:+919494637013">+91 94946 37013</a></p>
                         </div>
                         <div className="aboutus-location-contact">
                             <p className="aboutus-contact-label">Email</p>
-                            <p>quickresponse@delta-tech.co.in</p>
+                            <p><a href="mailto:quickresponse@overseasbearing.com">quickresponse@overseasbearing.com</a></p>
                         </div>
                     </article>
                 </div>

@@ -9,10 +9,10 @@ function ProductsPage() {
             <p className="products-page-intro">Precision components and motion solutions for demanding industrial applications.</p>
             <div className="product-categories">
                 <div className="product-categories-container">
-                    <img src="/bearing.png" alt="bearing" />
-                    <h2>Bearings</h2>
-                    <p className="product-description">High-quality industrial bearings for all your needs.</p>
-                    <Link className="link" to="/bearing">Read More</Link>
+                    <img src="/hydraulics.png" alt="Hydraulic components" />
+                    <h2>Hydraulics</h2>
+                    <p className="product-description">Fluid power components for precise, reliable industrial motion.</p>
+                    <Link className="link" to="/hydraulics">Read More</Link>
                 </div>
                 <div className="product-categories-container">
                     <img src="/linearautomation.png" alt="bearing" />
@@ -27,16 +27,16 @@ function ProductsPage() {
                     <Link className="link" to="/power-transmission">Read More</Link>
                 </div>
                 <div className="product-categories-container">
-                    <img src="/accessories.png" alt="bearing" />
+                    <img src="/bearing.png" alt="Bearings" />
+                    <h2>Bearings</h2>
+                    <p className="product-description">High-quality industrial bearings for all your needs.</p>
+                    <Link className="link" to="/bearing">Read More</Link>
+                </div>
+                <div className="product-categories-container">
+                    <img src="/accessories.png" alt="Accessories and supporting components" />
                     <h2>Accessories & Supporting Components</h2>
                     <p className="product-description">Engineered for maximum efficiency.</p>
                     <Link className="link" to="/accessories">Read More</Link>
-                </div>
-                <div className="product-categories-container">
-                    <img src="/hydraulics.png" alt="Hydraulic components" />
-                    <h2>Hydraulics</h2>
-                    <p className="product-description">Fluid power components for precise, reliable industrial motion.</p>
-                    <Link className="link" to="/hydraulics">Read More</Link>
                 </div>
 
             </div>

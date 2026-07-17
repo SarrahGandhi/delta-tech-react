@@ -9,19 +9,19 @@ const Footer = () => {
 
                     <ul className="contact-details">
                         <h1>Delta Technologies</h1>
-                        <li>#11/2, Lakshmipura Main Road, Abbigere Industrial Area, Abbigere, Bangalore – 560090</li>
-                        <li>+91-9494637013</li>
-                        <li>quickresponse@delta-tech.co.in</li>
+                        <li>76/3, Shed No. 11, Shardhamma Industrial Estate, Mylasandra, Begur Koppa Road, Bangalore – 560068</li>
+                        <li><a href="tel:+919538613013">+91 95386 13013</a></li>
+                        <li><a href="mailto:deltatech@outlook.com">deltatech@outlook.com</a></li>
                     </ul>
 
                     <ul className="products-list">
                         <h1>Products</h1>
-                        <li><Link to="/bearing/1" onClick={() => window.scrollTo(0, 0)}>Precision Bearings</Link></li>
-                        <li><Link to="/linear-automation/1 " onClick={() => window.scrollTo(0, 0)}>Linear Guideways</Link></li>
-                        <li><Link to="/linear-automation/2" onClick={() => window.scrollTo(0, 0)}>BallScrews</Link></li>
-                        <li><Link to="/linear-automation/5" onClick={() => window.scrollTo(0, 0)}>Linear Bearings</Link></li>
-                        <li><Link to="/bearing/5" onClick={() => window.scrollTo(0, 0)}>Rod-end Bearings</Link></li>
+                        <li><Link to="/hydraulics/1" onClick={() => window.scrollTo(0, 0)}>Hydraulic Hoses</Link></li>
+                        <li><Link to="/hydraulics/11" onClick={() => window.scrollTo(0, 0)}>Hydraulic Hose Fittings</Link></li>
+                        <li><Link to="/hydraulics/8" onClick={() => window.scrollTo(0, 0)}>Hydraulic Cylinders</Link></li>
+                        <li><Link to="/linear-automation/1" onClick={() => window.scrollTo(0, 0)}>Linear Guideways</Link></li>
                         <li><Link to="/power-transmission/3" onClick={() => window.scrollTo(0, 0)}>Spindles</Link></li>
+                        <li><Link to="/bearing/1" onClick={() => window.scrollTo(0, 0)}>Precision Bearings</Link></li>
                     </ul>
                     <ul className="products-list">
                         <h1>Services</h1>

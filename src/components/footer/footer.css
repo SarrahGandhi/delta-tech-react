@@ -33,6 +33,20 @@ footer {
 
 }
 
+.contact-details a {
+    color: #8befa6;
+    font-weight: 600;
+    text-decoration-color: rgba(139, 239, 166, 0.55);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.contact-details a:hover {
+    color: #c5f8d2;
+    text-decoration-color: currentColor;
+}
+
 .products-list a {
     text-decoration: none;
     color: #b9d7c0;

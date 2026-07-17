@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ProductStickyBar.css';
 
-const WHATSAPP_NUMBER = '919494637013';
+const WHATSAPP_NUMBER = '919538613013';
 
 const ProductStickyBar = ({ productName }) => {
     const navigate = useNavigate();

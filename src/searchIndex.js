@@ -5,7 +5,7 @@ export const searchIndex = [
     {
         title: "About Us",
         path: "/aboutus",
-        content: "Delta Technologies is a trusted supplier of high-quality bearings and precision motion components. Specialists in precision spindles, bearings, ball screws, rotary tables, and comprehensive reconditioning services with 25 years of experience. We serve diverse industrial sectors with reliable and performance-driven solutions across manufacturing, automation, and heavy industry. Our locations include Bangalore (Southern India) and Hyderabad, Telangana."
+        content: "Delta Technologies is a trusted supplier of high-quality bearings and precision motion components. Specialists in precision spindles, bearings, ball screws, rotary tables, and comprehensive reconditioning services with 25 years of experience. We serve diverse industrial sectors with reliable and performance-driven solutions across manufacturing, automation, and heavy industry. Our locations include a manufacturing unit in Bangalore, Karnataka, and a facility in Hyderabad, Telangana."
     },
     {
         title: "Services",
@@ -20,19 +20,19 @@ export const searchIndex = [
     {
         title: "Products",
         path: "/products",
-        content: "Browse our extensive catalog of industrial solutions including Bearings, Linear Automation components, Power Transmission units, Hydraulics, and Accessories. We carry brands like SKF, TIMKEN, INA (Schaeffler Group), NSK, NACHI, and ROLLWAY."
+        content: "Browse our extensive catalog of industrial solutions including Hydraulics, Linear Automation components, Power Transmission units, Bearings, and Accessories. We carry brands like SKF, TIMKEN, INA (Schaeffler Group), NSK, NACHI, and ROLLWAY."
     },
     {
         title: "Enquiry",
         path: "/enquiry",
-        content: "Contact us for enquiries, technical support, or project consultations. Reach our Hyderabad regional office at +91-9494637013 or email quickresponse@delta-tech.co.in."
+        content: "Contact us for enquiries, technical support, or project consultations. Reach our Bangalore manufacturing unit at +91-9538613013, deltatech@outlook.com, or quickresponse@delta-tech.co.in. Reach our Hyderabad facility at +91-9494637013 or quickresponse@overseasbearing.com."
     },
 
-    // Bearings
-    ...bearingProducts.map(p => ({
+    // Hydraulics
+    ...hydraulicsProducts.map(p => ({
         title: p.productName,
-        path: `/bearing/${p.id}`,
-        content: `${p.description} Key features include: ${p.keyFeatures.join(", ")}. Applications: ${p.applications.join(", ")}.`
+        path: `/hydraulics/${p.id}`,
+        content: `${p.description} Key features: ${p.keyFeatures.join(", ")}. Applications: ${p.applications.join(", ")}.`
     })),
 
     // Linear Automation
@@ -49,11 +49,11 @@ export const searchIndex = [
         content: `${p.description} Key features: ${p.keyFeatures.join(", ")}. Applications: ${p.applications.join(", ")}.`
     })),
 
-    // Hydraulics
-    ...hydraulicsProducts.map(p => ({
+    // Bearings
+    ...bearingProducts.map(p => ({
         title: p.productName,
-        path: `/hydraulics/${p.id}`,
-        content: `${p.description} Key features: ${p.keyFeatures.join(", ")}. Applications: ${p.applications.join(", ")}.`
+        path: `/bearing/${p.id}`,
+        content: `${p.description} Key features include: ${p.keyFeatures.join(", ")}. Applications: ${p.applications.join(", ")}.`
     })),
 
     // Accessories

@@ -7,8 +7,8 @@ const WHATSAPP_NUMBER = "919494637013";
 const productAreas = [
     {
         number: "01",
-        title: "Bearings",
-        detail: "Selection support for precision, high-load, and application-specific bearing systems.",
+        title: "Hydraulics",
+        detail: "Hoses, fittings, cylinders, expansion joints, and fluid-power assembly support.",
     },
     {
         number: "02",
@@ -22,8 +22,13 @@ const productAreas = [
     },
     {
         number: "04",
-        title: "Hydraulics",
-        detail: "Hoses, fittings, cylinders, expansion joints, and fluid-power assembly support.",
+        title: "Bearings",
+        detail: "Selection support for precision, high-load, and application-specific bearing systems.",
+    },
+    {
+        number: "05",
+        title: "Accessories",
+        detail: "Supporting components selected to complete dependable industrial assemblies.",
     },
 ];
 
